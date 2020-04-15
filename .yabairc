@@ -53,6 +53,7 @@ yabai -m rule --add app=Vox manage=off
 yabai -m rule --add app=checkra1n manage=off
 yabai -m rule --add app=ColorSlurp manage=off
 yabai -m rule --add app=System Preferences manage=off
+yabai -m rule --add app=VOX manage=off
 
 echo "yabai configuration loaded.."
 
