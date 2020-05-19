@@ -56,6 +56,7 @@ yabai -m rule --add app=VOX manage=off
 yabai -m rule --add app=The\ Unarchiver manage=off
 yabai -m rule --add app=System\ Preferences manage=off
 yabai -m rule --add app=CleanMyMac\ X manage=off
+yabai -m rule --add app=1Password\ 7 manage=on
 
 echo "yabai configuration loaded.."
 
