@@ -33,15 +33,15 @@ yabai -m config auto_balance                 off
 yabai -m config mouse_modifier               ctrl
 yabai -m config mouse_action1                move
 yabai -m config mouse_action2                resize
-yabai -m config window_topmost               on
+yabai -m config window_topmost               off
 
 # general space settings
 yabai -m config layout                       bsp
-yabai -m config top_padding                  10
-yabai -m config bottom_padding               10
-yabai -m config left_padding                 10
-yabai -m config right_padding                10
-yabai -m config window_gap                   10
+yabai -m config top_padding                  15
+yabai -m config bottom_padding               15
+yabai -m config left_padding                 15
+yabai -m config right_padding                15
+yabai -m config window_gap                   15
 
 # Float Windows
 yabai -m rule --add app=Finder manage=off
@@ -57,7 +57,9 @@ yabai -m rule --add app=The\ Unarchiver manage=off
 yabai -m rule --add app=System\ Preferences manage=off
 yabai -m rule --add app=CleanMyMac\ X manage=off
 yabai -m rule --add app=1Password\ 7 manage=off
-yabai -m rule --add app=Surfshhark manage=off
+yabai -m rule --add app=Surfshark manage=off
+yabai -m rule --add app=Calculator manage=off
+yabai -m rule --add app=Kodi manage=off
 
 echo "yabai configuration loaded.."
 
