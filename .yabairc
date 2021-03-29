@@ -30,6 +30,8 @@ yabai -m config active_window_opacity        1.0
 yabai -m config normal_window_opacity        1.0
 yabai -m config split_ratio                  0.50
 yabai -m config auto_balance                 off
+yabai -m config focus_follows_mouse          off
+yabai -m config mouse_follows_focus          off
 yabai -m config mouse_modifier               ctrl
 yabai -m config mouse_action1                move
 yabai -m config mouse_action2                resize
@@ -60,7 +62,12 @@ yabai -m rule --add app=1Password\ 7 manage=off
 yabai -m rule --add app=Surfshark manage=off
 yabai -m rule --add app=Calculator manage=off
 yabai -m rule --add app=Kodi manage=off
+yabai -m rule --add app=VLC manage=off
+yabai -m rule --add app="Axis & Allies 1942 Online" manage=off
+yabai -m rule --add app="AxisAndAllies1942Online" manage=off
+yabai -m rule --add app="Alfred Preferences" manage=off
 
 echo "yabai configuration loaded.."
+
 
 
