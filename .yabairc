@@ -66,6 +66,8 @@ yabai -m rule --add app=VLC manage=off
 yabai -m rule --add app="Axis & Allies 1942 Online" manage=off
 yabai -m rule --add app="AxisAndAllies1942Online" manage=off
 yabai -m rule --add app="Alfred Preferences" manage=off
+yabai -m rule --add app="Firefox Developer Edition" title="^Opening .*$" manage=off  
+yabai -m rule --add app="Firefox Developer Edition" title="^Library$" manage=off  
 
 echo "yabai configuration loaded.."
 
