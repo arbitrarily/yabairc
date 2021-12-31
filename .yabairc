@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+
 # bar settings
 yabai -m config status_bar                   off
 yabai -m config status_bar_text_font         "Helvetica Neue:Bold:12.0"
@@ -39,11 +40,11 @@ yabai -m config window_topmost               off
 
 # general space settings
 yabai -m config layout                       bsp
-yabai -m config top_padding                  15
-yabai -m config bottom_padding               15
-yabai -m config left_padding                 15
-yabai -m config right_padding                15
-yabai -m config window_gap                   15
+yabai -m config top_padding                  25
+yabai -m config bottom_padding               25
+yabai -m config left_padding                 25
+yabai -m config right_padding                25
+yabai -m config window_gap                   25
 
 # Float Windows
 yabai -m rule --add app=Finder manage=off
@@ -68,6 +69,13 @@ yabai -m rule --add app="AxisAndAllies1942Online" manage=off
 yabai -m rule --add app="Alfred Preferences" manage=off
 yabai -m rule --add app="Firefox Developer Edition" title="^Opening .*$" manage=off  
 yabai -m rule --add app="Firefox Developer Edition" title="^Library$" manage=off  
+yabai -m rule --add app="PathOfExileClient" manage=off
+yabai -m rule --add app="ImageOptim" manage=off
+yabai -m rule --add app="VirtualBox" manage=off
+yabai -m rule --add app="VirtualBox VM" manage=off
+yabai -m rule --add app="Windows10" manage=off
+yabai -m rule --add app="Windows10 [Running]" manage=off
+yabai -m rule --add app="Stats" manage=off
 
 echo "yabai configuration loaded.."
 
