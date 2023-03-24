@@ -11,6 +11,7 @@ yabai -m config status_bar_space_icon_strip  I II III IV V VI VII VIII IX X
 yabai -m config status_bar_power_icon_strip   
 yabai -m config status_bar_space_icon        
 yabai -m config status_bar_clock_icon        
+# yabai -m config window_animation_duration   1.0 
 
 # global settings
 yabai -m config mouse_follows_focus          off
@@ -40,11 +41,11 @@ yabai -m config window_topmost               off
 
 # general space settings
 yabai -m config layout                       bsp
-yabai -m config top_padding                  10
-yabai -m config bottom_padding               10
-yabai -m config left_padding                 10
-yabai -m config right_padding                10
-yabai -m config window_gap                   10
+yabai -m config top_padding                  20
+yabai -m config bottom_padding               20
+yabai -m config left_padding                 20
+yabai -m config right_padding                20
+yabai -m config window_gap                   20
 
 # Float Windows
 yabai -m rule --add app=Finder manage=off
@@ -69,6 +70,7 @@ yabai -m rule --add app=VLC manage=off
 yabai -m rule --add app="Axis & Allies 1942 Online" manage=off
 yabai -m rule --add app="AxisAndAllies1942Online" manage=off
 yabai -m rule --add app="Alfred Preferences" manage=off
+yabai -m rule --add app="NepTunes" manage=off  
 yabai -m rule --add app="Firefox Developer Edition" title="^Opening .*$" manage=off  
 yabai -m rule --add app="Firefox Developer Edition" title="^Extension: (Metamask) - Metamask Notification$" manage=off
 yabai -m rule --add app="Firefox Developer Edition" title="^Extension Notification$" manage=off
